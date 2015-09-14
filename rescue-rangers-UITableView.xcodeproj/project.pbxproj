@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0CDDDB1BA72CD300519186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDDDA1BA72CD300519186 /* AppDelegate.swift */; };
+		FB0CDDDD1BA72CD300519186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDDDC1BA72CD300519186 /* ViewController.swift */; };
+		FB0CDDE01BA72CD300519186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDDDE1BA72CD300519186 /* Main.storyboard */; };
+		FB0CDDE21BA72CD300519186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDDE11BA72CD300519186 /* Assets.xcassets */; };
+		FB0CDDE51BA72CD300519186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDDE31BA72CD300519186 /* LaunchScreen.storyboard */; };
+		FB0CDDF01BA72CD300519186 /* rescue_rangers_UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDDEF1BA72CD300519186 /* rescue_rangers_UITableViewTests.swift */; };
+		FB0CDDFB1BA72CD300519186 /* rescue_rangers_UITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDDFA1BA72CD300519186 /* rescue_rangers_UITableViewUITests.swift */; };
+		FB0CDE091BA7450700519186 /* RangersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDE081BA7450700519186 /* RangersCell.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0CDDEC1BA72CD300519186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0CDDCF1BA72CD300519186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0CDDD61BA72CD300519186;
+			remoteInfo = "rescue-rangers-UITableView";
+		};
+		FB0CDDF71BA72CD300519186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0CDDCF1BA72CD300519186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0CDDD61BA72CD300519186;
+			remoteInfo = "rescue-rangers-UITableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0CDDD71BA72CD300519186 /* rescue-rangers-UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rescue-rangers-UITableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0CDDDA1BA72CD300519186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0CDDDC1BA72CD300519186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0CDDDF1BA72CD300519186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0CDDE11BA72CD300519186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0CDDE41BA72CD300519186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0CDDE61BA72CD300519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0CDDEB1BA72CD300519186 /* rescue-rangers-UITableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rescue-rangers-UITableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0CDDEF1BA72CD300519186 /* rescue_rangers_UITableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rescue_rangers_UITableViewTests.swift; sourceTree = "<group>"; };
+		FB0CDDF11BA72CD300519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0CDDF61BA72CD300519186 /* rescue-rangers-UITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rescue-rangers-UITableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0CDDFA1BA72CD300519186 /* rescue_rangers_UITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rescue_rangers_UITableViewUITests.swift; sourceTree = "<group>"; };
+		FB0CDDFC1BA72CD300519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0CDE081BA7450700519186 /* RangersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangersCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0CDDD41BA72CD300519186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDDE81BA72CD300519186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDDF31BA72CD300519186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0CDDCE1BA72CD300519186 = {
+			isa = PBXGroup;
+			children = (
+				FB0CDDD91BA72CD300519186 /* rescue-rangers-UITableView */,
+				FB0CDDEE1BA72CD300519186 /* rescue-rangers-UITableViewTests */,
+				FB0CDDF91BA72CD300519186 /* rescue-rangers-UITableViewUITests */,
+				FB0CDDD81BA72CD300519186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0CDDD81BA72CD300519186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDDD71BA72CD300519186 /* rescue-rangers-UITableView.app */,
+				FB0CDDEB1BA72CD300519186 /* rescue-rangers-UITableViewTests.xctest */,
+				FB0CDDF61BA72CD300519186 /* rescue-rangers-UITableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0CDDD91BA72CD300519186 /* rescue-rangers-UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDDDA1BA72CD300519186 /* AppDelegate.swift */,
+				FB0CDDDC1BA72CD300519186 /* ViewController.swift */,
+				FB0CDDDE1BA72CD300519186 /* Main.storyboard */,
+				FB0CDDE11BA72CD300519186 /* Assets.xcassets */,
+				FB0CDDE31BA72CD300519186 /* LaunchScreen.storyboard */,
+				FB0CDDE61BA72CD300519186 /* Info.plist */,
+				FB0CDE081BA7450700519186 /* RangersCell.swift */,
+			);
+			path = "rescue-rangers-UITableView";
+			sourceTree = "<group>";
+		};
+		FB0CDDEE1BA72CD300519186 /* rescue-rangers-UITableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDDEF1BA72CD300519186 /* rescue_rangers_UITableViewTests.swift */,
+				FB0CDDF11BA72CD300519186 /* Info.plist */,
+			);
+			path = "rescue-rangers-UITableViewTests";
+			sourceTree = "<group>";
+		};
+		FB0CDDF91BA72CD300519186 /* rescue-rangers-UITableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CDDFA1BA72CD300519186 /* rescue_rangers_UITableViewUITests.swift */,
+				FB0CDDFC1BA72CD300519186 /* Info.plist */,
+			);
+			path = "rescue-rangers-UITableViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0CDDD61BA72CD300519186 /* rescue-rangers-UITableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0CDDFF1BA72CD300519186 /* Build configuration list for PBXNativeTarget "rescue-rangers-UITableView" */;
+			buildPhases = (
+				FB0CDDD31BA72CD300519186 /* Sources */,
+				FB0CDDD41BA72CD300519186 /* Frameworks */,
+				FB0CDDD51BA72CD300519186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rescue-rangers-UITableView";
+			productName = "rescue-rangers-UITableView";
+			productReference = FB0CDDD71BA72CD300519186 /* rescue-rangers-UITableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0CDDEA1BA72CD300519186 /* rescue-rangers-UITableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0CDE021BA72CD300519186 /* Build configuration list for PBXNativeTarget "rescue-rangers-UITableViewTests" */;
+			buildPhases = (
+				FB0CDDE71BA72CD300519186 /* Sources */,
+				FB0CDDE81BA72CD300519186 /* Frameworks */,
+				FB0CDDE91BA72CD300519186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0CDDED1BA72CD300519186 /* PBXTargetDependency */,
+			);
+			name = "rescue-rangers-UITableViewTests";
+			productName = "rescue-rangers-UITableViewTests";
+			productReference = FB0CDDEB1BA72CD300519186 /* rescue-rangers-UITableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0CDDF51BA72CD300519186 /* rescue-rangers-UITableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0CDE051BA72CD300519186 /* Build configuration list for PBXNativeTarget "rescue-rangers-UITableViewUITests" */;
+			buildPhases = (
+				FB0CDDF21BA72CD300519186 /* Sources */,
+				FB0CDDF31BA72CD300519186 /* Frameworks */,
+				FB0CDDF41BA72CD300519186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0CDDF81BA72CD300519186 /* PBXTargetDependency */,
+			);
+			name = "rescue-rangers-UITableViewUITests";
+			productName = "rescue-rangers-UITableViewUITests";
+			productReference = FB0CDDF61BA72CD300519186 /* rescue-rangers-UITableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0CDDCF1BA72CD300519186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jonathan Wood";
+				TargetAttributes = {
+					FB0CDDD61BA72CD300519186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FB0CDDEA1BA72CD300519186 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FB0CDDD61BA72CD300519186;
+					};
+					FB0CDDF51BA72CD300519186 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FB0CDDD61BA72CD300519186;
+					};
+				};
+			};
+			buildConfigurationList = FB0CDDD21BA72CD300519186 /* Build configuration list for PBXProject "rescue-rangers-UITableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0CDDCE1BA72CD300519186;
+			productRefGroup = FB0CDDD81BA72CD300519186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0CDDD61BA72CD300519186 /* rescue-rangers-UITableView */,
+				FB0CDDEA1BA72CD300519186 /* rescue-rangers-UITableViewTests */,
+				FB0CDDF51BA72CD300519186 /* rescue-rangers-UITableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0CDDD51BA72CD300519186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDDE51BA72CD300519186 /* LaunchScreen.storyboard in Resources */,
+				FB0CDDE21BA72CD300519186 /* Assets.xcassets in Resources */,
+				FB0CDDE01BA72CD300519186 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDDE91BA72CD300519186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDDF41BA72CD300519186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0CDDD31BA72CD300519186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDE091BA7450700519186 /* RangersCell.swift in Sources */,
+				FB0CDDDD1BA72CD300519186 /* ViewController.swift in Sources */,
+				FB0CDDDB1BA72CD300519186 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDDE71BA72CD300519186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDDF01BA72CD300519186 /* rescue_rangers_UITableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0CDDF21BA72CD300519186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CDDFB1BA72CD300519186 /* rescue_rangers_UITableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0CDDED1BA72CD300519186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0CDDD61BA72CD300519186 /* rescue-rangers-UITableView */;
+			targetProxy = FB0CDDEC1BA72CD300519186 /* PBXContainerItemProxy */;
+		};
+		FB0CDDF81BA72CD300519186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0CDDD61BA72CD300519186 /* rescue-rangers-UITableView */;
+			targetProxy = FB0CDDF71BA72CD300519186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0CDDDE1BA72CD300519186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0CDDDF1BA72CD300519186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0CDDE31BA72CD300519186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0CDDE41BA72CD300519186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0CDDFD1BA72CD300519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0CDDFE1BA72CD300519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0CDE001BA72CD300519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rescue-rangers-UITableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.rescue-rangers-UITableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB0CDE011BA72CD300519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rescue-rangers-UITableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.rescue-rangers-UITableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB0CDE031BA72CD300519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rescue-rangers-UITableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.rescue-rangers-UITableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rescue-rangers-UITableView.app/rescue-rangers-UITableView";
+			};
+			name = Debug;
+		};
+		FB0CDE041BA72CD300519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rescue-rangers-UITableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.rescue-rangers-UITableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rescue-rangers-UITableView.app/rescue-rangers-UITableView";
+			};
+			name = Release;
+		};
+		FB0CDE061BA72CD300519186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rescue-rangers-UITableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.rescue-rangers-UITableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rescue-rangers-UITableView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB0CDE071BA72CD300519186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rescue-rangers-UITableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.rescue-rangers-UITableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rescue-rangers-UITableView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0CDDD21BA72CD300519186 /* Build configuration list for PBXProject "rescue-rangers-UITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDDFD1BA72CD300519186 /* Debug */,
+				FB0CDDFE1BA72CD300519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0CDDFF1BA72CD300519186 /* Build configuration list for PBXNativeTarget "rescue-rangers-UITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDE001BA72CD300519186 /* Debug */,
+				FB0CDE011BA72CD300519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0CDE021BA72CD300519186 /* Build configuration list for PBXNativeTarget "rescue-rangers-UITableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDE031BA72CD300519186 /* Debug */,
+				FB0CDE041BA72CD300519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0CDE051BA72CD300519186 /* Build configuration list for PBXNativeTarget "rescue-rangers-UITableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0CDE061BA72CD300519186 /* Debug */,
+				FB0CDE071BA72CD300519186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0CDDCF1BA72CD300519186 /* Project object */;
+}
